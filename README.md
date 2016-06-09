@@ -6,6 +6,12 @@
 
 ```
 $ docker pull nabz/docker-sslscan
+Using default tag: latest
+latest: Pulling from nabz/docker-sslscan
+fae91920dcd4: Already exists
+7e6650903611: Pull complete
+Digest: sha256:0ef69ddf6053e0b8c56ab0797b3bdc8397dba540c554860483645ab43b3a839b
+Status: Downloaded newer image for nabz/docker-sslscan:latest
 $ docker run -it --rm nabz/sslscan www.google.fr
 Version: 1.11.6-rbsec-10-g11a8fb4-static
 OpenSSL 1.0.2i-dev  xx XXX xxxx
